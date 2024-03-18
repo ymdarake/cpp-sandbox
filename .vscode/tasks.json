@@ -9,6 +9,7 @@
                 "-fansi-escape-codes",
                 "-g",
                 "${fileDirname}/**.cpp",
+                // "-I/source/includes",
                 "-o",
                 "${workspaceFolder}/build/${fileBasenameNoExtension}"
             ],
