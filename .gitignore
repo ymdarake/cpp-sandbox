@@ -1,7 +1,9 @@
-build/*
-!build/.gitkeep
+**/build/*
+!**/build/.gitkeep
 
 .DS_Store
+
+*.log
 
 ##### https://github.com/github/gitignore/blob/main/C++.gitignore #####
 # Prerequisites
